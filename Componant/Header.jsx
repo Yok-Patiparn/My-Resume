@@ -41,7 +41,7 @@ function Header() {
               href="https://www.facebook.com/yok.yok.9/videos/1896962570363476"
               target="_blank"
             >
-              <img src="./img/YokYok.jpg" className="logo" alt="img-me" />
+              <img src="../src/img/YokYok.jpg" className="logo" alt="img-me" />
             </a>
           </div>
         </div>
