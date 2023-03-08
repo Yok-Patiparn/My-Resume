@@ -18,16 +18,19 @@ function App() {
       <div className="header">
         <div className="information">
           <h2>
-            Hi, I'm Patiparn Wongsawang (Yok).
+            Hi, I'm Patiparn Wongsawang (Yok).<br/>
             a Front-End Developer
           </h2>
-          <p> Front-End devel oper based in Bekasi, Indonesian
-            I'am coding with a clean and beautiful problem
-            solving in mind. </p>
+          <p>I am 28 years old and graduate from University of the thai chamber of commerce major in Logistic Management.<br/> After that I passed work as sales and marketing in Siamsteel co.ltd, for 2 yrs and I had worked as marketing 
+          <br/>at TMB Thanachart Bank for 3 more yrs. </p>
+          <p>Now, I'm Developer Training at <a href="https://www.techupth.com/">Techup Bootcamp.</a></p>
         </div>
-        <a href="https://www.facebook.com/yok.yok.9/" target="_blank">
-          <img src="./img/YokYok.jpg" className="logo" alt="Vite logo" />
-        </a>
+        <img src="./img/Pin.png" alt="pin-logo" className="pin-logo"/>
+        <div className="myphoto">
+          <a href="https://www.facebook.com/yok.yok.9/videos/1896962570363476" target="_blank">
+            <img src="./img/YokYok.jpg" className="logo" alt="img-me" />
+          </a>
+        </div>
       </div>
 
       <div className="intelligence-port" id="passion">
@@ -35,9 +38,18 @@ function App() {
           <h1>Additional Passions</h1>
         </div>
         <div className="main">
-          <div className="main-object"></div>
-          <div className="main-object"></div>
-          <div className="main-object"></div>
+          <div className="main-object-passion">
+            <span className="info"><strong>Front-End</strong> Developer</span>
+            <span className="info">(HTML, CSS, JavaScript, React)</span>
+          </div>
+          <div className="main-object-passion">
+            <span className="info"><strong>Back-End</strong> Developer</span>
+            <span className="info">(NodeJS, Laravel, Codeigniter)</span>
+          </div>
+          <div className="main-object-passion">
+            <span className="info"><strong>UI/UX</strong> Designer</span>
+            <span className="info">(Figma, Zeplin, Adobe XD)</span>
+          </div>
         </div>
       </div>
       
@@ -46,27 +58,29 @@ function App() {
           <h1>My Portfolio</h1>
         </div>
         <div className="main">
-          <div className="main-object"></div>
-          <div className="main-object"></div>
-          <div className="main-object"></div>
+          <div className="main-object-portfolio"></div>
+          <div className="main-object-portfolio"></div>
+          <div className="main-object-portfolio"></div>
         </div>
       </div>
 
-      <div className="intelligence-port" id="portfolio">
+      <div className="intelligence-port" id="contact-me">
         <div className="topics">
           <h1>Contact Me</h1>
         </div>
-        <div className="main">
-          <div className="main-object"></div>
-          <div className="main-object"></div>
-          <div className="main-object"></div>
-          <div className="main-object"></div>
+        <div className="main-btn">
+          <button className="contact"><a href="https://www.facebook.com/yok.yok.9/" target="_blank"><img src="./img/icons8-facebook-100.png" alt="fb-icon"/></a></button>
+          <button className="contact"><a href="https://www.instagram.com/patiparn.wong/" target="_blank"><img src="./img/icons8-instagram-100.png" alt="ig-icon"/></a></button>
+          <button className="contact"><a href="https://github.com/Yok-Patiparn" target="_blank"><img src="./img/icons8-github-100.png" alt="github-icon"/></a></button>
+          <button className="contact"><a href="https://www.linkedin.com/in/yok-yokkk-752381269/" target="_blank"><img src="./img/icons8-linkedin-100.png" alt="linkedin-icon"/></a></button>
         </div>
       </div>
 
       <footer className="footage">
         <div>Design By Yok'Yok</div>
       </footer>
+
+      
     </div>
   )
 }
