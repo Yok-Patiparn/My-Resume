@@ -5,7 +5,7 @@
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  background-color: #00e1ff;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -32,22 +32,50 @@ body {
 }
 
 h1 {
-  font-size: 3.2em;
+  font-size: 1.8em;
   line-height: 1.1;
 }
 
-button {
+span {
+  font-size: 1.6em;
+  font-weight: bold;
+  line-height: 1.1;
+}
+
+span:hover {
+  color: indigo;
+}
+
+
+button.nav-within-bd {
   border-radius: 8px;
   border: 1px solid transparent;
-  padding: 0.6em 1.2em;
+  padding: 0.6em 3.2em;
   font-size: 1em;
   font-weight: 500;
   font-family: inherit;
-  background-color: #1a1a1a;
+  background-color: #608AF5;
   cursor: pointer;
   transition: border-color 0.25s;
 }
-button:hover {
+
+button.nav-without-bd {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 3.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: transparent;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+
+button.nav-within-bd:hover {
+  border-color: aliceblue;
+}
+
+button.nav-without-bd:hover {
   border-color: #646cff;
 }
 button:focus,

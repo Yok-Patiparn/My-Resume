@@ -1,15 +1,48 @@
 #root {
-  max-width: 1280px;
+  width: 2500px;
+  height: auto;
   margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+  display: flex;
+  align-items: center;
+}
+
+.navigate {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.header {
+  display: flex;
+  width: 44%;
+  height: 25%;
+  background-color: transparent;
+  margin: 40px 520px;
+  padding: 40px;
+}
+
+.information {
+  padding-top: 80px;
+  padding-right: 20px;
+}
+
+.aboutme {
+  padding-right: 500px;
 }
 
 .logo {
-  height: 6em;
+  height: 24em;
   padding: 1.5em;
   will-change: filter;
   transition: filter 300ms;
+  justify-content: end;
+  align-items: end;
+  border-radius: 9999vmax;
 }
 .logo:hover {
   filter: drop-shadow(0 0 2em #646cffaa);
@@ -17,6 +50,67 @@
 .logo.react:hover {
   filter: drop-shadow(0 0 2em #61dafbaa);
 }
+
+.intelligence-port {
+  display: flex;
+  width: 50%;
+  height: auto;
+  background-color: transparent;
+  margin: 20px 520px;
+  padding-bottom: 100px;
+  flex-direction: column;
+}
+
+.topics {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+.main {
+  display: flex;
+  width: 100%;
+  height: 250px;
+  background-color: transparent;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.main-object {
+  width: 25%;
+  height: 80%;
+  background-color: azure;
+  flex-direction: row;
+  margin: 20px 30px;
+}
+
+.footage {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 85px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @keyframes logo-spin {
   from {
