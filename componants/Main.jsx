@@ -8,20 +8,20 @@ function Main() {
         <div className="main">
           <div className="main-object-passion">
             <img
-              src="./img/coding1.jpg"
+              src="/img/coding1.jpg"
               alt="frontendlogo"
               className="passion-logo"
             />
           </div>
           <div className="main-object-passion">
             <img
-              src="./img/backend.jpg"
+              src="/img/backend.jpg"
               alt="backendlogo"
               className="passion-logo"
             />
           </div>
           <div className="main-object-passion">
-            <img src="./img/UXUI.jpg" alt="uxuilogo" className="passion-logo" />
+            <img src="/img/UXUI.jpg" alt="uxuilogo" className="passion-logo" />
           </div>
         </div>
       </div>
@@ -32,13 +32,13 @@ function Main() {
         </div>
         <div className="main">
           <div className="main-object-portfolio">
-            <img src="./img/programmer.jpg" alt="" className="portlogo" />
+            <img src="/img/programmer.jpg" alt="" className="portlogo" />
           </div>
           <div className="main-object-portfolio">
-            <img src="./img/programming.jpg" alt="" className="portlogo" />
+            <img src="/img/programming.jpg" alt="" className="portlogo" />
           </div>
           <div className="main-object-portfolio">
-            <img src="./img/deskprogram.jpg" alt="" className="portlogo" />
+            <img src="/img/deskprogram.jpg" alt="" className="portlogo" />
           </div>
         </div>
       </div>
