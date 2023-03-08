@@ -4,7 +4,7 @@
   font-weight: 400;
 
   color-scheme: light dark;
-  background-image: linear-gradient(to left, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+  background-image: linear-gradient(to right, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -30,6 +30,7 @@ body {
   min-height: 100vh;
 }
 
+
 h1 {
   font-size: 1.8em;
   line-height: 1.1;
@@ -39,12 +40,12 @@ p {
   font-size: 18px;
 }
 
-span.aboutme {
+span.me {
   font-size: 1.6em;
   font-weight: bold;
   line-height: 1.1;
 }
-span.aboutme:hover {
+span.me:hover {
   color: indigo;
 }
 
